@@ -1,0 +1,113 @@
+{
+  //-----------------
+  // General Config
+  //-----------------
+  "breadcrumbs.enabled": false,
+
+  //-----------------
+  // Workbench Config 
+  //-----------------
+
+  // Abre um novo arquivo em branco ao iniciar o VS Code
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Define o tema de cores do VS Code
+  "workbench.colorTheme": "Dracula",
+
+  // Define o tema de ícones do VS Code
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+
+  // Oculta a barra de atividades
+  "workbench.activityBar.location": "hidden",  
+
+  // Move a barra lateral para a direita
+  "workbench.sideBar.location": "right",
+
+  // Oculta a barra de status
+  "workbench.statusBar.visible": false,  
+
+  // Não exibe guias de recuo na árvore de arquivos
+  "workbench.tree.renderIndentGuides": "none", 
+    
+  // Desativa o layout de controle no Workbench
+  "workbench.layoutControl.enabled": false,
+    
+  // Não pergunta para salvar espaços de trabalho sem título ao sair
+  "window.confirmSaveUntitledWorkspace": false,
+
+  //----------------
+  // Editor Config 
+  //----------------
+
+  // Define a família de fontes do editor
+  "editor.fontFamily": "JetBrains Mono",
+
+  // Define o tamanho da fonte do editor
+  "editor.fontSize": 12,
+
+  // Define o peso da fonte do editor
+  "editor.fontWeight": "normal",
+
+  // Ativa ligaturas de fonte no editor
+  "editor.fontLigatures": false,
+
+  // Define o espaçamento entre linhas do editor
+  "editor.lineHeight": 1.2,
+
+  // Não destaca visualmente linhas no editor
+  "editor.renderLineHighlight": "none",
+
+  // Oculta automaticamente o minimapa
+  "editor.minimap.enabled": false,
+
+  // Oculta a barra de rolagem horizontal no editor
+  "editor.scrollbar.horizontal": "hidden",
+
+  // Oculta a barra de rolagem vertical no editor
+  "editor.scrollbar.vertical": "hidden",    
+
+  // Oculta o cursor na régua de visão geral do editor
+  "editor.hideCursorInOverviewRuler": true,
+
+  // Oculta a borda na régua de visão geral do editor
+  "editor.overviewRulerBorder": false,
+
+  // Ativa a animação suave do cursor do editor
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // Oculta a margem de glifo no editor
+  "editor.glyphMargin": false,
+
+  // Nunca exibe controles de dobramento no editor
+  "editor.showFoldingControls": "never",
+
+  //----------------
+  // Terminal Config 
+  //----------------
+
+  // Define o perfil padrão do terminal integrado para macOS
+  "terminal.integrated.defaultProfile.osx": "zsh",
+
+  // Define a família de fontes do terminal integrado
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+
+  // Define o tamanho da fonte do terminal
+  "terminal.integrated.fontSize": 12,
+
+  // Faz o cursor piscar no terminal integrado
+  "terminal.integrated.cursorBlinking": true,
+
+  // Define o aplicativo externo para execução de terminal no macOS
+  "terminal.external.osxExec": "iTerm.app",
+
+  //----------------
+  // Window Config 
+  //----------------
+
+  // Define o título da janela como vazio
+  "window.title": " ",
+
+  // Desativa o centro de comando da janela
+  "window.commandCenter": false
+
+}

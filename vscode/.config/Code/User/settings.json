@@ -31,9 +31,10 @@
     
   // Desativa o layout de controle no Workbench
   "workbench.layoutControl.enabled": false,
+
+  // Desativa as dicas na área de trabalho do VS Code
+  "workbench.tips.enabled": false,
     
-  // Não pergunta para salvar espaços de trabalho sem título ao sair
-  "window.confirmSaveUntitledWorkspace": false,
 
   //----------------
   // Editor Config 
@@ -108,6 +109,9 @@
   "window.title": " ",
 
   // Desativa o centro de comando da janela
-  "window.commandCenter": false
+  "window.commandCenter": false,
+
+  // Não pergunta para salvar espaços de trabalho sem título ao sair
+  "window.confirmSaveUntitledWorkspace": false,
 
 }

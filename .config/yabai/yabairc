@@ -1,18 +1,18 @@
-# Configure default layout to use: Binary Space Partitioning.
-yabai -m config layout bsp
+# global settings
+yabai -m config window_placement             second_child
 
-# Configure how window splits should be made
-yabai -m config window_placement second_child
+# general space settings
+yabai -m config layout                       bsp
+yabai -m config top_padding                  12
+yabai -m config bottom_padding               12
+yabai -m config left_padding                 12
+yabai -m config right_padding                12
+yabai -m config window_gap                   12
 
-# Configure window padding
-yabai -m config top_padding 12
-yabai -m config bottom_padding 12
-yabai -m config left_padding 12
-yabai -m config right_padding 12
-yabai -m config window_gap 12
-
-# Disable specific apps
+# apps to not manage (ignore)
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^App Store$" manage=off
 yabai -m rule --add app="^Calendar$" manage=off
+yabai -m rule --add app="^Logi Options$" manage=off
+yabai -m rule --add app="^Archive Utility$" manage=off
